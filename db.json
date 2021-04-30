@@ -1,14 +1,39 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+    "edibles": [
+        { 
+            "id": 1, 
+            "info" : 
+                { 
+                    "name": "orange 1",
+                    "image": "https://www.boeschbodenspies.com/wp-content/uploads/2017/08/orange.png",
+                    "basic_description": "It is an Orange!!!"
+                }
+        },
+        { 
+            "id": 2, 
+            "info" : 
+                { 
+                    "name": "orange 2",
+                    "image": "https://www.boeschbodenspies.com/wp-content/uploads/2017/08/orange.png",
+                    "basic_description": "It is anohter Orange!!!"
+                }
+        },
+        { 
+            "id": 3, 
+            "info" : 
+                { 
+                    "name": "orange 3",
+                    "image": "https://www.boeschbodenspies.com/wp-content/uploads/2017/08/orange.png",
+                    "basic_description": "It is yet another Orange!!!"
+                }
+        }
+    ],
+    "comments": [
+      { "id": 1, "body": "user 1 comment", "postId": 1 },
+      { "id": 2, "body": "user 2 comment", "postId": 1 }
+    ],
+    "users": {
+        "id": 1, 
+        "name": "typicode"
+    }
   }
-}
