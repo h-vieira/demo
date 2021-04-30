@@ -1,33 +1,64 @@
 {  
     "id": 1, 
     "edible": 
-        { 
-            "info_basic" : 
-                { 
-                    "name": "orange 1",
-                    "image": "https://www.boeschbodenspies.com/wp-content/uploads/2017/08/orange.png",
-                    "image_source": "link to image if not original",
-                    "basic_description": "It is an Orange!!!"
-                },
-            "info_advanced":
-                {
-                    "Attributes" : [
-                        {
-                            "Sensory factors": "The taste of oranges is determined mainly by the relative ratios of sugars and acids, whereas orange aroma derives from volatile organic compounds, including alcohols, aldehydes, ketones, terpenes, and esters. Bitter limonoid compounds, such as limonin, decrease gradually during development, whereas volatile aroma compounds tend to peak in mid– to late–season development. Taste quality tends to improve later in harvests when there is a higher sugar/acid ratio with less bitterness. As a citrus fruit, the orange is acidic, with pH levels ranging from 2.9 to 4.0.",
+        {   
+            "edible": "true",
+            "info_basic" : { 
+                "name": "orange 1",
+                "image": "https://www.boeschbodenspies.com/wp-content/uploads/2017/08/orange.png",
+                "image_source": "link to image if not original",
+                "basic_description": "It is an Orange!!!"
+            },
+            "info_advanced": {
+                "Attributes" : [
+                    {
+                        "Sensory factors": "The taste of oranges is determined mainly by the relative ratios of sugars and acids, whereas orange aroma derives from volatile organic compounds, including alcohols, aldehydes, ketones, terpenes, and esters. Bitter limonoid compounds, such as limonin, decrease gradually during development, whereas volatile aroma compounds tend to peak in mid– to late–season development. Taste quality tends to improve later in harvests when there is a higher sugar/acid ratio with less bitterness. As a citrus fruit, the orange is acidic, with pH levels ranging from 2.9 to 4.0.",
+                        "reference" : "if available"
+                    },
+        
+                    {
+                        "Nutritional value": [
+                            {"value": 1},
+                            {"value": 2},
+                            {"value": 3},
+                            {"value": 4}
+                            
+                            ],
                             "reference" : "if available"
-                        },
-          
-                        {
-                            "Nutritional value": [
-                                {"value 1": 1},
-                                {"value 2": 2},
-                                {"value 3": 3},
-                                {"value 4": 4}
-                                
-                             ],
-                             "reference" : "if available"
-                        },
-                    ] 
+                    }
+                ] 
+            },
+            "Cultivation": { 
+                "Climate": "description", 
+                "climate_type": "typeOfClimate"
+            },
+            "Harvest": { 
+                "description": "description"
+            },
+            "Storage": { 
+                "description": "description"
+            },
+            "aditional": [
+                {
+                    "section": { 
+                        "title": "title",
+                        "desciption": "description"
+                        } 
+                },
+                {
+                    "section": { 
+                        "title": "title",
+                        "desciption": "description"
+                        } 
                 }
-        }
-  }
+            ],
+            "related": [
+                {"related_id": 234723},
+                {"related_id": 721233},
+                {"related_id": 227883}
+            ],
+            "commetns": [
+                {"comment_id": 735082, "user_id": 32}
+            ]
+        }          
+}
