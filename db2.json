@@ -1,6 +1,6 @@
 {  
     "id": 1, 
-    "edible": 
+    "edible": [
         {   
             "edible": "true",
             "info_basic" : { 
@@ -60,5 +60,5 @@
             "commetns": [
                 {"comment_id": 735082, "user_id": 32}
             ]
-        }          
+        }  ]        
 }
