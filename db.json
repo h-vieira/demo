@@ -6,7 +6,8 @@
                 { 
                     "name": "orange 1",
                     "image": "https://www.boeschbodenspies.com/wp-content/uploads/2017/08/orange.png",
-                    "basic_description": "It is an Orange!!!"
+                    "basic_description": "It is an Orange!!!",
+                    "edible": "true"
                 }
         },
         { 
