@@ -13,18 +13,20 @@
             "id": 2, 
             "info" : 
                 { 
-                    "name": "orange 2",
-                    "image": "https://www.boeschbodenspies.com/wp-content/uploads/2017/08/orange.png",
-                    "basic_description": "It is anohter Orange!!!"
+                    "name": "Goiaba",
+                    "image": "https://static.tuasaude.com/media/article/1b/bc/beneficios-da-goiaba_13191_l.jpg",
+                    "basic_description": "something else",
+                     "edible": "true"
                 }
         },
         { 
             "id": 3, 
             "info" : 
                 { 
-                    "name": "orange 3",
-                    "image": "https://www.boeschbodenspies.com/wp-content/uploads/2017/08/orange.png",
-                    "basic_description": "It is yet another Orange!!!"
+                    "name": "Stone",
+                    "image": "https://static.dicionariodesimbolos.com.br/upload/a0/a0/pedra-bruta-1_xl.jpeg",
+                    "basic_description": "a normal rock",
+                    "edible": "false"
                 }
         }
     ],
